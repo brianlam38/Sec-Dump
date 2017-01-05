@@ -2,6 +2,7 @@
 pwd 	         - print working directory // shows current location
 man <name>  	 - show manual page of <name> command
 ls [-l] [-a]	 - show content of the current location
+clear			 - clears terminal screen
 cat <path>		 - show content of the file at <path>
 cd <path>		 - change directory/location
 mkdir			 - make/create a new directory
@@ -14,10 +15,18 @@ df [-h]			 - show disk space usage
 ps [aux]		 - print process information
 id				 - show current user id
 hexdump			 - display data in hex numbers
+shutdown now	 - shutdown the machine at specified time "now"
 
-/* INSERTING CONTENT INTO FILE */
-echo <text> > <filename>
-echo follow the white rabbit > rabbit
+// Inserting content into a file
+echo <text> > <filename>    - echo follow the white rabbit > rabbit
+
+// Showing content of a file as hex values
+cat <filename> | hexdump	- cat rabbit | hexdump
+
+
+
+
+
 
 
 
