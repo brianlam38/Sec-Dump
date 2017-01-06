@@ -36,6 +36,28 @@ env | grep USER
 ./matrix \$USER		- Using backslash \ Shell will not treat the following characters as special
 
 /* PART 3: WRITING A PROGRAM IN PYTHON */
+file  				- displays information on what type of file an object is. GIF, tar, ascii text, html etc.
+
+// Using python in terminal
+python				- runs the python program in terminal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
