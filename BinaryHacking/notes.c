@@ -41,6 +41,11 @@ file  				- displays information on what type of file an object is. GIF, tar, as
 // Using python in terminal
 python				- runs the python program in terminal
 
+// Inside VIM
+:!<command>			- runs a command with VIM in the background
+					- arguments passed through a program start with the program file name
+:!python % normal_arg "with quotes and spaces" no spaces      and many spaces
+
 
 
 
