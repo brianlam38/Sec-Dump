@@ -1,4 +1,4 @@
-/* BASIC COMMANDS */
+/* PART 1: BASIC LINUX COMMANDS */
 pwd 	         - print working directory // shows current location
 man <name>  	 - show manual page of <name> command
 ls [-l] [-a]	 - show content of the current location
@@ -17,13 +17,25 @@ id				 - show current user id
 hexdump			 - display data in hex numbers
 shutdown now	 - shutdown the machine at specified time "now"
 
-// Inserting content into a file
-echo <text> > <filename>    - echo follow the white rabbit > rabbit
+/* PART 2: WRITING A PROGRAM IN C */
+echo <text> > <filename>				- inserting content into a file
+echo follow the white rabbit > rabbit	
 
-// Showing content of a file as hex values
-cat <filename> | hexdump	- cat rabbit | hexdump
+cat <filename> | hexdump			    - showing content of a file as hex values
+cat rabbit | hexdump    			  	
 
+sudo apt-get install VIM				- installing VIM. Mac by default has VIM
 
+echo $?									- displays exit code (1 or 0) of last run program
+
+// Environment variables
+env | grep USER
+
+// Shell reads character by character
+./matrix $USER		- Shell reads $ then knows the next characters will be a variable 
+./matrix \$USER		- Using backslash \ Shell will not treat the following characters as special
+
+/* PART 3: WRITING A PROGRAM IN PYTHON */
 
 
 
