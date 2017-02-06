@@ -67,5 +67,3 @@ python				- runs the python program in terminal
 
 
 
-
-
