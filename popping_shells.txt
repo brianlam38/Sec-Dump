@@ -1,0 +1,55 @@
+Hacking
+
+Kali linux
+
+GDB-peda to check stack frames,
+
+Objdump –d ./buf2
+
+ 
+
+Poodle exploit
+
+Break point to find where the buffer overflow is.
+
+Use pdisas to find location where the exploit in scanf is.
+
+Use b “address”
+
+N means next command
+
+Ni means next instruction
+
+Step means step into the function.
+
+Peda – overview
+
+Gives you the registeres r-15
+
+Arrow gives you current instruction 
+
+Remember in stack :
+
+New function gets dropped on top of with local vairables, and ret address as last thing.
+
+ Then call info frame. Which tells where the locals start.
+
+X = means print out memory,
+
+100wx = 100 words
+
+x/100wx ADDRESS
+
+x/100wx ADDRESSOFLOCALVARIBLES 
+
+ 
+
+In memory, it’s little endian ie backwards. 
+
+R <<< “ABCD ” // this adds it to scanf
+
+R <<< (backtick) python –c “print ‘AAAA’ *18 + “\x\x\x\x”
+
+Bit of an issue when you want to get to an address will nulls as these are stripped out. 
+
+You can use help with gdb
