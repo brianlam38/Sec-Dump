@@ -1,0 +1,38 @@
+#n = modulus
+#e = public exponent / encryption exponent
+#d = secret exponent / decryption exponent
+
+#p: 36284301867002730313074536355711447548648312442850367424496201601738931335367311
+#q: 31409856503733395579713701376384561534796344021085709982811478443434874743993337
+#e: 65537
+#c: 860410100407083427465369637667542322240210336826814657894621125239427540007816353906590075940478994568655169885695375407796056853749866357321964441873901157468
+
+#n = pq
+#phi(n) = (p-1)(q-1)
+
+import math
+
+# declare RSA components
+e = 65537
+p = 36284301867002730313074536355711447548648312442850367424496201601738931335367311
+q = 31409856503733395579713701376384561534796344021085709982811478443434874743993337
+n = p*q
+
+# calculate phi value
+phi = (p-1)*(n-1)
+
+# calculate modular inverse
+def egcd(e, phi):
+    if e == 0:
+        return (phi, 0, 1)
+    else:
+        g, y, x = egcd(b % e, e)
+        return (g, x - (b // e) * y, y)
+
+def modinv(e, n):
+    g, x, y = egcd(e, n)
+    if g != 1:
+        raise Exception('modular inverse does not exist')
+    else:
+    	print x % n
+        return x % n
