@@ -22,17 +22,22 @@ n = p*q
 phi = (p-1)*(n-1)
 
 # calculate modular inverse
-def egcd(e, phi):
-    if e == 0:
-        return (phi, 0, 1)
-    else:
-        g, y, x = egcd(b % e, e)
-        return (g, x - (b // e) * y, y)
+y = pow(e,n-2,n)
 
-def modinv(e, n):
-    g, x, y = egcd(e, n)
-    if g != 1:
-        raise Exception('modular inverse does not exist')
-    else:
-    	print x % n
-        return x % n
+print y
+print e*y
+print e*y % n
+
+Here is an example done at the prompt:
+
+m = 1000000007
+x = 1234567
+y = pow(x,m-2,m)
+y
+989145189L
+x*y
+1221166008548163L
+x*y % m
+1L
+
+
