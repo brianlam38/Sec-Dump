@@ -1,0 +1,5 @@
+Bob has a little website to store his well-loved flags.
+Unfortunately he forgot his password! Oh no! Bob has now come to you for help.
+Help Bob find his password and reclaim that flag!
+
+View the website at http://k17ctf.win:1048/
