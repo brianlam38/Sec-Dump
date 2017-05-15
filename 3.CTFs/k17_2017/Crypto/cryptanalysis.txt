@@ -1,0 +1,26 @@
+8 = 2x4
+24 = 2x12,3x8,4x6
+8 = 2x4
+44 = 2x22, 4x11
+12 = 2x6, 3x4
+20 = 2x10, 4x5
+
+n = 2 or 4
+4 is more probable
+
+frequency count
+u ||||||||  e
+t ||| a
+g ||| a
+r ||| a
+o |
+k ||||||| t
+y ||
+h ||
+l ||
+z |||| a -> b
+x |
+m |
+a ||| a -> a
+n || o  -> a
+e |
