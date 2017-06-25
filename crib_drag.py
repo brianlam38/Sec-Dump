@@ -2,11 +2,11 @@
 #Written on 4th march 2016
 #Took me a good 30 minutes
 #How this tool works:
-#Suppose you guess a crib " the "
-#We have n messages each of length k
-#For each of the n messages and at each position k we want to guess the crib
-#However, we can make our lives vastly easier if we guess the other way round:
-#Instead of guessing each message separately, we guess at the same position for all the messages at the same time
+#1. Suppose you guess a crib " the "
+#2. We have n messages each of length k
+#3. For each of the n messages and at each position k we want to guess the crib
+#4. However, we can make our lives vastly easier if we guess the other way round:
+#5. Instead of guessing each message separately, we guess at the same position for all the messages at the same time
 #This will make it easier to spot when crib for message m at position k produces the wrong output for any other message
 #Therefore, what this program does is to guess for each combination of message and position the crib for all messages at position k
 #Suppose at message m position k the plaintext is " the ", then we can derive the key at position k with the length of our crib
