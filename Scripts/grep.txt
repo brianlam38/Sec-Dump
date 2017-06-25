@@ -1,2 +1,1 @@
- 2017-05-13 17:35:17 ☆  Brians-MacBook-Air-2 in ~/desktop
 ○ → grep -Ril ".*{.*}.*" /Users/brianlam/dropbox/seceng/3.ctfs/k17_2017/exploit
