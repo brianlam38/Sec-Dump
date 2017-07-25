@@ -1,1 +1,1 @@
-○ → grep -Ril ".*{.*}.*" /Users/brianlam/dropbox/seceng/3.ctfs/k17_2017/exploit
+○ → grep -Ril ".*{.*}.*" /../../dropbox/seceng/3.ctfs/k17_2017/exploit

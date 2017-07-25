@@ -72,3 +72,7 @@ crib_drag("chinese puzzle ".encode("hex"),L1[1],0)
 crib_drag("notable prisoner ".encode("hex"),L1[0],0)
 crib_drag("do not disturb those ".encode("hex"),L1[5],0)
 crib_drag("notable prisoner is freed ".encode("hex"),L1[0],0)
+
+
+
+
