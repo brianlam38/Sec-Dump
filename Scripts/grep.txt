@@ -1,1 +1,0 @@
-○ → grep -Ril ".*{.*}.*" /../../dropbox/seceng/3.ctfs/k17_2017/exploit
